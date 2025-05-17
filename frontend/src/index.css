@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+    --color-custom-main: #7e57c2;
+    --color-custom-hover: #6a4aaa;
+    --color-custom-blue: #366ed5;
+    --color-custom-red: #b82424;
+    --font-poppins: 'Poppins',"sans";
+
+    --color-night-dark: #171717;
+    --color-night-deep: #262626;
+    --color-night-dim: #404040;
+    --color-night-tx-dark: #f3f4f6;
+    --color-night-tx-deep: #99a1af;
+    --color-night-tx-dim: #6a7282;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
