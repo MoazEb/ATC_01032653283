@@ -1,3 +1,16 @@
+# you can use this credentials for trying the website on link below 
+
+https://atc-01032653283-iwcb.vercel.app/
+
+## admin
+email:admin@email.com
+password:123
+
+##user
+email:meha@gmail.com
+password:123
+
+
 # backend setup instructions
 
 first you need to have node js installed on your pc then open the project folder in cmd and do the following
